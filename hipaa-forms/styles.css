@@ -168,3 +168,34 @@ footer .footer-links a {
 footer .footer-links a:hover {
     color: #ffcc00;
 }
+
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.feature-item.reverse {
+    flex-direction: row-reverse;
+}
+
+.feature-item .text {
+    flex: 1;
+    padding: 20px;
+}
+
+.feature-item .image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-item .image img {
+    max-width: 100%;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
