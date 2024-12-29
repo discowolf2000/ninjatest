@@ -8,6 +8,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css?v=1.0">
     <script src="script.js" defer></script>
+    <style>
+        .features-section {
+            margin-bottom: 40px;
+        }
+        .feature-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .feature-item.reverse {
+            flex-direction: row-reverse;
+        }
+        .feature-item .image {
+            flex: 1;
+            text-align: center;
+        }
+        .feature-item .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .feature-item .text {
+            flex: 1;
+        }
+        .feature-item .text h2 {
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .feature-item .text ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+    </style>
 </head>
 <body>
 
@@ -17,7 +51,7 @@
             <div class="container">
                 <a href="index.html" class="logo">HIPAA Forms</a>
                 <ul class="menu">
-                    <li><a href="index.html">Home2</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="features.html">Features</a></li>
                     <li><a href="templates.html">Templates</a></li>
                     <li><a href="compliance.html">Compliance</a></li>
@@ -79,7 +113,7 @@
 
             <!-- Insights and Reporting -->
             <section class="features-section">
-                <div class="feature-item">
+                <div class="feature-item reverse">
                     <div class="image">
                         <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Insights and Reporting">
                     </div>
@@ -94,44 +128,7 @@
                 </div>
             </section>
 
-            <!-- Integrations and Extensions -->
-            <section class="features-section">
-                <div class="feature-item">
-                    <div class="image">
-                        <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Integrations and Extensions">
-                    </div>
-                    <div class="text">
-                        <h2>Integrations and Extensions</h2>
-                        <ul>
-                            <li><strong>HIPAA-Compliant API:</strong> Connect forms to your existing systems securely.</li>
-                            <li><strong>Third-Party Tool Integration:</strong> Sync with popular tools like Google Sheets, HIPAA-compliant cloud storage, or EMR/EHR systems.</li>
-                            <li><strong>Payment Collection:</strong> Accept secure payments for services, co-pays, or fees directly through your forms.</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Form Creation and Customization -->
-            <section class="features-section">
-                <div class="feature-item">
-                    <div class="image">
-                        <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Form Creation and Customization">
-                    </div>
-                    <div class="text">
-                        <h2>Form Creation and Customization</h2>
-                        <ul>
-                            <li><strong>Advanced Field Types:</strong> Add dropdowns, checkboxes, star ratings, file uploads, date pickers, and more to collect precise data.</li>
-                            <li><strong>Conditional Logic:</strong> Customize the user experience by showing or hiding fields based on previous responses.</li>
-                            <li><strong>Multi-Step Forms:</strong> Break down lengthy forms into manageable sections for improved user experience.</li>
-                            <li><strong>Custom Styling:</strong> Tailor forms to match your branding with adjustable colors, fonts, layouts, and logos.</li>
-                            <li><strong>Reusable Templates:</strong> Choose from a variety of pre-designed templates tailored for healthcare, dentistry, and therapy, ready to customize.</li>
-                            <li><strong>Multi-Language Support:</strong> Create forms in multiple languages to reach a broader audience.</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Remaining sections follow the same structure -->
+            <!-- Add Remaining Sections Here Following the Same Structure -->
 
         </div>
     </main>
